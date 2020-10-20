@@ -7,8 +7,8 @@ function Hero() {
     return (
         <div className='hero-container'>
             <video src="" autoPlay loop muted></video>
-            <h1>INTOXICATED SPORTS asdfasfdsa</h1>
-            <p>Sports & Adult Beverages</p>
+            <h1>CRISTIAN GARCIA</h1>
+            <p>NASM CERTIFIED PERSONAL TRAINER</p>
         </div>
     )
 }
