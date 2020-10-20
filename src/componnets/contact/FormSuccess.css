@@ -1,0 +1,19 @@
+ .success-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+ }
+  .form-success {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 80px;
+    color: #fff;
+  }
+
+  .success-img {
+    width: 60%;
+    height: 60%;
+  }
+
+ 
