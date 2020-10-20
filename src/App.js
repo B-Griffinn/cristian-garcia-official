@@ -4,8 +4,9 @@ import Navabar from "./componnets/NavBar/Navbar";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './componnets/pages/Home';
 import ContactPage from './componnets/pages/ContactPage';
-import Merch from './componnets/merch/Merch';
-import MerchPage from './componnets/pages/Merch';
+// import Merch from './componnets/merch/Merch';
+// import MerchPage from './componnets/pages/Merch';
+import About from './componnets/pages/About';
 
 
 
@@ -22,7 +23,7 @@ function App() {
         <Route path="/contact" exact component={ContactPage}/>
       </Switch>
       <Switch>
-        <Route path="/merch" exact component={MerchPage}/>
+        <Route path="/about" exact component={About}/>
       </Switch>
     </Router>
     </>

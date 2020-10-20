@@ -1,9 +1,18 @@
+.form-wrapper-background {
+  border: 1px solid #242424;
+  background: url('../../images/home.jpg') center center/cover no-repeat;
+  height: 65vh;
+  width: 100%;
+  object-fit: contain;
+}
+
 .form-container {
+  /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin: 50px auto;
+    margin: 25px auto 25px auto;
     width: 50%;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
     border-radius: 10px;

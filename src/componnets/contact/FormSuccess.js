@@ -10,7 +10,7 @@ const FormSuccess = () => {
 
     useEffect(() => {
       setLoaded(true)
-      console.log("USE EFFECT")
+      // console.log("USE EFFECT")
     }, [successImg])
 
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import Button  from '../button/Button';
+// import Button  from '../button/Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
@@ -38,9 +38,9 @@ function Footer() {
           <div className='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/contact'>Contact</Link>
-            <Link to='/'>Support Us</Link>
-            <Link to='/'>Sponsorships</Link>
-            <Link to='/'>Schedule</Link>
+            {/* <Link to='/'>Support Us</Link> */}
+            {/* <Link to='/'>Sponsorships</Link> */}
+            {/* <Link to='/'>Schedule</Link> */}
           </div>
         </div>
         <div className='footer-link-wrapper'>
@@ -55,28 +55,9 @@ function Footer() {
             <h2>Social Media</h2>
             <a
                 target="blank"
-                href='https://www.instagram.com/intoxicatedsportsreport/'
+                href='https://www.instagram.com/cristiannoh15/?hl=en'
             >
                 Instagram
-            </a>
-            {/* <Link to='/'>Facebook</Link> */}
-            <a
-                target="blank"
-                href='https://open.spotify.com/show/3nQqvzFRcj4esPpw6FsJTZ'
-            >
-                Spotify
-            </a>
-            <a 
-                href='https://twitter.com/IntoxicatedPod'
-                target='blank'
-            >
-                Twitter
-            </a>
-            <a 
-                href='https://anchor.fm/isr2020/'
-                target='blank'
-            >
-                Anchor
             </a>
           </div>
         </div>
@@ -85,11 +66,13 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              ISR
-              <i className='fas fa-microphone-alt' />
+              cristian garcia
+              {/* <i className='fas fa-microphone-alt' /> */}
             </Link>
           </div>
-          <small className='website-rights'>ISR © 2020</small>
+          <a className='a-tag' target='blank' href="https://bengriffin-chi.vercel.app/">
+          <small className='website-rights'>bigTechnology © 2020</small>
+          </a>
           <div className='social-icons'>
             <a
               className='social-icon-link instagram'
@@ -101,49 +84,15 @@ function Footer() {
             </a>
 
             <a
-              className='social-icon-link facebook'
-              href='https://open.spotify.com/show/3nQqvzFRcj4esPpw6FsJTZ'
-              target='blank'
-              aria-label='Spotify'
-            >
-              <i className='fab fa-spotify'/>
-            </a>
-
-            <a
-              className='social-icon-link twitter'
-              href='https://twitter.com/IntoxicatedPod'
-              target='blank'
-              aria-label='Twitter'
-            >
-              <i className='fab fa-twitter' />
-            </a>
-
-            <a
               className='social-icon-link youtube'
-              href='https://anchor.fm/isr2020/'
+              href='mailto:cgsaldanasbd@gmail.com'
               target='blank'
-              aria-label='Anchor'
-            >
-              <i className='fas fa-anchor' />
-            </a>
-
-            <a
-              className='social-icon-link youtube'
-              href='mailto:isrpodcast@yahoo.com'
-              target='blank'
-              aria-label='Anchor'
+              aria-label='Envelope'
             >
               <i className='fas fa-envelope' />
             </a>
 
-            {/* <Link
-              className='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i className='fab fa-linkedin' />
-            </Link> */}
+
           </div>
         </div>
       </section>
