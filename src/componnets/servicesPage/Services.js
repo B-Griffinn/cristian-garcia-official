@@ -7,6 +7,7 @@ function Services() {
             <div className="services-content">
 
                 <div className="programs">
+                    <h2>Programs</h2>
                     <p>
                         I am currently offering 10 and 12 week programs.
                         Programs are designed and updated on Google Sheets. This allows me to monitor your success and cator to your needs week to week.
@@ -14,6 +15,7 @@ function Services() {
                 </div>
 
                 <div className="programs">
+                <h2>Sessions</h2>
                     <p>
                         I have a home gym that I can support all training needs.
                         I also offer zoom sessions for those who prefer the comfort of their home andequipment.
