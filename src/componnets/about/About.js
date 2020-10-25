@@ -4,9 +4,9 @@ import './About.css';
 function About() {
     return (
         <div className='about-container'>
-            <h1 className='about-header'>about me</h1>
 
             <div className='about-content'>
+            <h1 className='about-header'>about me</h1>
             <div className='about-left-content'>
                 <p className='about-para'>CRISTIAN GARCIA</p>
                 <p className='about-para-cert'>NASM certified personal trainer</p>
