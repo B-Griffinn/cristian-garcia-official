@@ -46,6 +46,7 @@ function Services() {
                         </button>
                     </li>
                     </ul>
+                    <span>Please email me with any questions.</span>
                     </div>
                 </div>
 
@@ -79,6 +80,7 @@ function Services() {
                             </button>
                         </li>
                     </ul>
+                    <span>Please email me with any questions.</span>
                 </div>
                 </div>
             </div>
