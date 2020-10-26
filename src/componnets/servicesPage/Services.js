@@ -1,29 +1,85 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom'
 import './Services.css';
 
 function Services() {
+
+    //state management
+    const [ clicked, setClicked ] = useState() 
+
+    const history = useHistory();
+
+    // handle click
+    const handleClick = () => {
+        history.push('/contact')
+    }
+
     return (
         <div className='services-wrapper'>
             <div className="services-content">
 
                 <div className="programs">
                     <h2>Programs</h2>
-                    <p>
-                        I am currently offering 10 and 12 week programs.
-                        Programs are designed and updated on Google Sheets. This allows me to monitor your success and cator to your needs week to week.
-                    </p>
+                <div className="session">
+                    <ul
+                        className='session-list'
+                        >
+                        Current Offered Programs:
+                    <li 
+                        className="program-link 10-week-program"
+                    >
+                        <button 
+                            onClick={handleClick}
+                            className="session-btn"
+                        >
+                            10 WEEKS
+                        </button>
+                    </li>
+                    <li 
+                        className="program-link 12-week-program"
+                    >
+                        <button 
+                            onClick={handleClick}
+                            className="session-btn"
+                        >
+                            12 WEEKS
+                        </button>
+                    </li>
+                    </ul>
+                    </div>
                 </div>
 
                 <div className="programs">
                 <h2>Sessions</h2>
-                    <p>
-                        I have a home gym that I can support all training needs.
-                        I also offer zoom sessions for those who prefer the comfort of their home andequipment.
-                    </p>
-                    <p>
-                        COVID-19 MESSAGE:
-                        Masks must be work at all times during in person consoltations and sessions. Thank you for understanding.
-                    </p>
+                <div className="session">
+                    <ul className='session-list'>
+                    In person training options:
+                        <li className='sessiont-item'>
+                            <button
+                                onClick={handleClick}
+                                className='session-btn'
+                            >
+                            Power Crush Napa
+                            </button>
+                        </li>
+                        <li className='sessiont-item'>
+                            <button
+                                onClick={handleClick}
+                                className='session-btn'
+                            >
+                            My Home Gym
+                            </button>
+                        </li>
+                        <li className='sessiont-item'>
+                            <button
+                                onClick={handleClick}
+                                className='session-btn'
+                            >
+                            Zoom
+                            </button>
+                        </li>
+                    </ul>
+                </div>
                 </div>
             </div>
 

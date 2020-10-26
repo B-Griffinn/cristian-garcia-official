@@ -4,8 +4,6 @@
         margin: auto;
         width: 100%;
         height: 100vh;
-        background: url('../../images/about.jpg') center center/cover no-repeat;
-        object-fit: contain;
         color: #fff;
     }
 

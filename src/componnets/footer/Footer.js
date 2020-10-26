@@ -76,7 +76,7 @@ function Footer() {
           <div className='social-icons'>
             <a
               className='social-icon-link instagram'
-              href='https://www.instagram.com/intoxicatedsportsreport/'
+              href='https://www.instagram.com/cristiannoh15/'
               target='blank'
               aria-label='Instagram'
             >
@@ -91,8 +91,6 @@ function Footer() {
             >
               <i className='fas fa-envelope' />
             </a>
-
-
           </div>
         </div>
       </section>
