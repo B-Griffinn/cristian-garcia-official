@@ -14,13 +14,10 @@ function About() {
 
             <div className="about-middle-content">
                 <p>
-                I am a freelance NASM certified Personal Trainer.
-                I enjoy helping others achieve their goals through fitness.
-                My goal is to help others discover the power that hard work, 
-                dedication and persistance can achieve.
+                    I am a freelance NASM certified Personal Trainer.
+                    I enjoy helping others achieve their goals through fitness.
                 </p>
             </div>
-
             </div>
         </div>
     )
