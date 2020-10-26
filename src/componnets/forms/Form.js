@@ -18,12 +18,12 @@ const Form = () => {
     }
 
     return (
-      <>
+      <div className='form-wrapper-background'>
           <div className='close-btn' onClick={closeSuccess}>×</div>
           {isSubmitted === false ? <ContactForm submitForm={submitForm} />
           : <FormSuccess />
           }
-      </>
+      </div>
     );
   };
   
