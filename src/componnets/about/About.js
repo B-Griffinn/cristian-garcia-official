@@ -22,12 +22,11 @@ function About() {
             </div>
 
             <div className="about-middle-content">
-            <p className='about-para'>CRISTIAN GARCIA</p>
-                <p className='about-para-cert'>NASM certified personal trainer</p>
-                <p>
-                    I am a freelance NASM certified Personal Trainer.
-                    I enjoy helping others achieve their goals through fitness.
+                <span> NASM certified personal trainer </span>
+                <p className='about-para'>
+                    I am a freelance NASM certified Personal Trainer here to help others achieve their goals through fitness.
                 </p>
+
             </div>
             </div>
         </div>
