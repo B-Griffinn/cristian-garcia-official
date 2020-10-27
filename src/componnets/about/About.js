@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import cristian from '../../images/cristian.jpg';
+import VideoList from './VideoList';
 
 function About() {
     return (
@@ -29,6 +30,7 @@ function About() {
 
             </div>
             </div>
+
         </div>
     )
 }

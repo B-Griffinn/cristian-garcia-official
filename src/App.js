@@ -8,6 +8,7 @@ import ContactPage from './componnets/pages/ContactPage';
 // import MerchPage from './componnets/pages/Merch';
 import About from './componnets/pages/About';
 import ServicesPage from './componnets/pages/ServicesPage';
+import Testimonial from './componnets/testimonials/Testimonial';
 
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
       </Switch>
       <Switch>
         <Route path="/services"  component={ServicesPage}/>
+      </Switch>
+      <Switch>
+        <Route path="/testimonials"  component={Testimonial}/>
       </Switch>
     </Router>
     </>
