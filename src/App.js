@@ -4,11 +4,9 @@ import Navabar from "./componnets/NavBar/Navbar";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './componnets/pages/Home';
 import ContactPage from './componnets/pages/ContactPage';
-// import Merch from './componnets/merch/Merch';
-// import MerchPage from './componnets/pages/Merch';
-import About from './componnets/pages/About';
 import ServicesPage from './componnets/pages/ServicesPage';
 import Testimonial from './componnets/testimonials/Testimonial';
+import AboutPage from './componnets/pages/AboutPage';
 
 
 function App() {
@@ -24,7 +22,7 @@ function App() {
         <Route path="/contact"  component={ContactPage}/>
       </Switch>
       <Switch>
-        <Route path="/about"  component={About}/>
+        <Route path="/about"  component={AboutPage}/>
       </Switch>
       <Switch>
         <Route path="/services"  component={ServicesPage}/>
