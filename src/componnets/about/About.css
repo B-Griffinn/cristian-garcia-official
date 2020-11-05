@@ -17,6 +17,10 @@
         text-align: center;
     }
 
+    .about-header span {
+        border-bottom: 3px solid black;
+    }
+
     .about-content {
         display: flex;
         flex-direction: row;
@@ -57,18 +61,26 @@
     }
 
     .about-right-content {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        padding-left: 5px;
+        padding: 15px;
+        height: auto;
         line-height: 2;
-        font-weight: bold;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+        font-weight: normal;
+    }
+
+    .about-right-div {
+        margin: 10px auto;
+        padding: 10px;
+        height: auto;
+    }
+
+    .about-ul {
+        list-style: inside;
+        margin-bottom: 20px;
     }
 
     .about-para {
-        width: 65%;
-        margin-top: 10px;
+        margin-bottom: 15px;
 
     }
 }
