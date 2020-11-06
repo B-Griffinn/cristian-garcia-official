@@ -1,8 +1,9 @@
 import React from 'react';
 import '../../App.css';
 import LandingPage from '../LandingPage/LandingPage';
-// import Cards from '../cards/Cards';
 import Footer from '../footer/Footer';
+import About from '../about/About';
+
 
 // Home Page is the Landing Page aka route to "/"
 function Home () {
@@ -10,7 +11,7 @@ function Home () {
     return (
         <>
         <LandingPage />
-        {/* <Cards /> */}
+        <About />
         <Footer/>
         </>
     )
